@@ -1,0 +1,10 @@
+.img{
+    width: 335px;
+    height: 198px;
+    background: url('../../assets/test.png') center center no-repeat;
+}
+.homeWrapper{
+    width: 400px;
+    height: 500px;
+    background-color: aqua;
+}

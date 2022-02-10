@@ -1,0 +1,35 @@
+{    
+    "presets": [        
+       "next/babel"    
+    ],    
+    "plugins": [    
+        [
+            "import",
+            {
+              "libraryName": "antd-mobile",
+              "libraryDirectory": "es/components",
+              "style": false
+            }
+        ],    
+        [            
+           "@babel/plugin-proposal-decorators",            
+           {                
+              "legacy": true            
+            }        
+        ],        
+        [            
+            "@babel/plugin-proposal-class-properties",            
+            {                
+                "loose": false            
+            }        
+        ],
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "@/": "./"
+                }
+            }
+        ]    
+      ]
+ }
